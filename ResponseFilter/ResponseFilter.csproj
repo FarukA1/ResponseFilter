@@ -8,7 +8,7 @@
     <Authors>Faruk Awofeso</Authors>
     <Description>ResponseFilter is a lightweight C# library designed to simplify and customize the formatting of object responses in your applications. It provides a flexible way to filter and shape response data, allowing you to include or exclude specific fields based on your application's requirements.</Description>
     <PackageProjectUrl>https://github.com/FarukA1/ResponseFilter</PackageProjectUrl>
-    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageIcon>icon.png</PackageIcon>
 
@@ -20,7 +20,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="LICENSE.txt" Pack="true" PackagePath="" />
     <None Include="icon.png" Pack="true" PackagePath="" />
     <None Include="README.md" Pack="true" PackagePath="" />
   </ItemGroup>
