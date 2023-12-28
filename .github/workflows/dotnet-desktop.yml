@@ -60,7 +60,7 @@ jobs:
           path: ${{ env.NuGetDirectory }}
 
       - name: Install dotnet-validate
-        run: dotnet tool install --global dotnet-validate
+        run: dotnet tool install --global dotnet-validate --version 0.0.1-preview.304
 
       # Validate metadata and content of the NuGet package
       - name: Validate NuGet package
