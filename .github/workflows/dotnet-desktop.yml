@@ -67,9 +67,10 @@ jobs:
         run: dotnet-validate package local ${{ env.NuGetDirectory }}/*.nupkg
         
       # List of packages 
-      -name: List NuGet packages
-      run: |
-    ls -R ${{ env.NuGetDirectory }}
+      - name: List NuGet packages
+        run: |
+          ls -R ${{ env.NuGetDirectory }}
+
 
   run_test:
     runs-on: ubuntu-latest
