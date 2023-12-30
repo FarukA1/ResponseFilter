@@ -61,6 +61,3 @@ dotnet add package ResponseFilter
 Contributions is welcomed. If you find a bug or have an enhancement in mind, feel free to open an issue or submit a pull request.
 
 
-## License
-
-
