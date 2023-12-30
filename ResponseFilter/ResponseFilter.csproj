@@ -12,6 +12,8 @@
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageIcon>icon.png</PackageIcon>
 
+    <Version>1.0.1</Version>
+
     <PackageTags>filter, api, response, library</PackageTags>
     <GenerateDocumentationFile>True</GenerateDocumentationFile>
 
